@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+html {
+    font-size: 62.5%
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: var(--white)
+}
+
+:root {
+    --primary-color: #003755;
+    --secondary-color: #ff7405;
+    --white: #fff;
+    --montserat: "Montserrat", sans-serif
+}
+
+@media screen and (min-width:700px) {
+    body {
+        display: none
+    }
+}
+
+header[data-v-20e367dc] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 1rem;
+    margin-bottom: 2rem
+}
+
+.logo[data-v-20e367dc] {
+    width: 150px
+}
+
+.logo img[data-v-20e367dc] {
+    width: 100%;
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+header svg[data-v-20e367dc] {
+    fill: var(--white)
+}
+
+form[data-v-20e367dc] {
+    margin: 5rem auto;
+    width: 90%
+}
+
+.form__control[data-v-20e367dc] {
+    width: 100%;
+    margin-bottom: 1rem
+}
+
+form label[data-v-20e367dc] {
+    font-size: 1.2rem;
+    font-family: var(--montserat);
+    color: var(--primary-color)
+}
+
+.input__box[data-v-20e367dc] {
+    margin-top: 1rem;
+    width: 100%;
+    border: 1px solid #d5d5d5;
+    display: grid;
+    grid-template-columns: 2rem 1fr 2rem;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: var(--white)
+}
+
+.input__box input[data-v-20e367dc] {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    width: 90%
+}
+
+.form__control button[data-v-20e367dc] {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin-top: 1rem
+}
+
+.remember-me[data-v-20e367dc] {
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center
+}
+
+.remember-me input[type=checkbox][data-v-20e367dc] {
+    margin-right: .5rem
+}
+
+.visible-eye[data-v-20e367dc] {
+    fill: #000
+}
+
+.search-box[data-v-20e367dc] {
+    width: 90%;
+    border: 1px solid #d5d5d5;
+    margin: .5rem auto
+}
+
+.search-box input[data-v-20e367dc] {
+    padding: .5rem;
+    width: 100%;
+    border: none
+}
+
+.error[data-v-20e367dc] {
+    background-color: red;
+    padding: .2rem 1rem;
+    font-size: 1.2rem;
+    color: var(--white);
+    margin-bottom: .5rem;
+    font-family: var(--montserat)
+}
+
+button[data-v-20e367dc] {
+    padding: .5rem 1rem;
+    background-color: transparent!important;
+    color: var(--primary-color)!important;
+    width: auto;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: var(--montserat);
+    outline: none;
+    border: 1px solid var(--primary-color)!important;
+    cursor: pointer
+}
+
+.btns[data-v-20e367dc] {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+    margin-top: 1rem
+}
